@@ -19,7 +19,7 @@ while gc<ch:
         print(f"Correct! the number is {num}. you guessed it in {gc}")
         break
     elif gc >= ch and guess != num:
-        print(f'orry! The number was {num}. Better luck next time.')
+        print(f'Sorry! The number was {num}. Better luck next time.')
 
     elif guess > num:
         print('Too high! Try a lower number.')
